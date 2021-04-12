@@ -2,9 +2,9 @@ Projects:
 
 04/2021: [Skills Test](https://github.com/Nahue941/navent) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS Modules, SASS | Navent-Bumeran
 
-03/2021: [e-commerce](https://github.com/agustindiazcano/ECOMMERCE-PUBLIC ) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS
+03/2021: [e-commerce](https://github.com/agustindiazcano/ECOMMERCE-PUBLIC) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS
 
-02/2021: Movies App | React, Redux, MongoDB, Mongoose, Passport.js, Node.js, Express.js, Bootstrap, API's 
+02/2021: [e-commerce](https://github.com/agustindiazcano/MoviesApp) | React, Redux, MongoDB, Mongoose, Passport.js, Node.js, Express.js, Bootstrap, API's 
 
 ![alt text](https://i.ibb.co/zGvDscv/Screenshot-from-2021-04-12-11-20-49.png)
 
