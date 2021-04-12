@@ -12,7 +12,7 @@ Projects:
 
 ![alt text](https://i.ibb.co/zGvDscv/Screenshot-from-2021-04-12-11-20-49.png)
 
-11/2020: [Bootstrap Portfolio](https://agustintomas.netlify.app/) | HTML, CSS, JS, Bootstrap 
+16/11/2020: [Bootstrap Portfolio](https://agustintomas.netlify.app/) | HTML, CSS, JS, Bootstrap 
 
 ![alt text](https://i.ibb.co/D5ygCv4/Screenshot-from-2021-04-11-00-51-53.png)
 
