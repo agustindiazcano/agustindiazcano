@@ -2,7 +2,7 @@ Projects:
 
 04/2021: [Skills Test](https://github.com/Nahue941/navent) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS Modules, SASS | Navent-Bumeran
 
-![alt text](https://i.ibb.co/1fZMJC8/Screenshot-from-2021-04-12-12-36-00.png)
+![alt text](https://i.ibb.co/pZYn63g/Screenshot-from-2021-04-16-18-22-38.png)
 
 03/2021: [e-commerce](https://github.com/agustindiazcano/ECOMMERCE-PUBLIC) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS
 
