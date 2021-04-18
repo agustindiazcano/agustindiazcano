@@ -4,7 +4,7 @@ Projects:
 
 ![alt text](https://i.ibb.co/pZYn63g/Screenshot-from-2021-04-16-18-22-38.png)
 
-03/2021: [e-commerce](https://github.com/agustindiazcano/ECOMMERCE-PUBLIC) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS
+03/2021: [e-commerce](https://github.com/agustindiazcano/e-commerce-clement) | React, Redux, JWT, PostgreSQL, Sequelize, Express.js, Node.js, CSS
 
 ![alt text](https://i.ibb.co/NN3WR0W/Screenshot-from-2021-04-12-12-31-53.png)
 
