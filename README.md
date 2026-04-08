@@ -11,7 +11,7 @@
 Full ownership of release processes, E2E automation, and production stability for high-traffic purchase flows.
 
 - Designed and implemented a 50-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart, and checkout — running 24/7 across 3 production sites.
-- Solely responsible for approving **every production deployment**, combining automated and manual verification.
+- Responsible for approving **every production deployment**, combining automated and manual verification.
 - Played a key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off, and rollout.
 - Reduced regressions through continuous smoke tests and fast post-deployment validation.
 
