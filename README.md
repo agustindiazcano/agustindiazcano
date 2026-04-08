@@ -1,7 +1,9 @@
 **MSc Candidate in Information Systems Engineering**  
-Universidad Tecnológica Nacional, UTN FRBA · Buenos Aires, Argentina
+[Universidad Tecnológica Nacional (UTN FRBA)](https://www.frba.utn.edu.ar/) · Buenos Aires, Argentina
 
 ## Research
+
+## Experience
 
 **SDET & Release Lead — Pocima Digital** *(Contractor for GDU — Uruguay's #1 retailer)*  
 *2022 – 2025*
