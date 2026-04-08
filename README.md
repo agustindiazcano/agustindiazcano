@@ -1,35 +1,31 @@
-MSc Candidate in Information Systems Engineering**  
+**MSc Candidate in Information Systems Engineering**  
 Universidad Tecnológica Nacional, UTN FRBA · Buenos Aires, Argentina
 
----
-
 ## Research
-
----
 
 **SDET & Release Lead — Pocima Digital** *(Contractor for GDU — Uruguay's #1 retailer)*  
 *2022 – 2025*
 
-Full ownership of release processes, E2E automation and production stability for high-traffic purchase flows.
+Full ownership of release processes, E2E automation, and production stability for high-traffic purchase flows.
 
-- Designed and implemented a 50-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart and checkout — running 24/7 across 3 production sites.
-- Sole responsible for approving **every production deployment**, combining automated and manual verification.
-- Key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off and rollout..
+- Designed and implemented a 50-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart, and checkout — running 24/7 across 3 production sites.
+- Solely responsible for approving **every production deployment**, combining automated and manual verification.
+- Played a key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off, and rollout.
 - Reduced regressions through continuous smoke tests and fast post-deployment validation.
 
 **Frontend Developer — Hello Auto** *(Spain, remote)*  
 *2021 – 2022*
 
-Insurance quoting system and CRM built with React, Node.js and PostgreSQL.
+Insurance quoting system and CRM built with React, Node.js, and PostgreSQL.
 
 - First engineering role 6 months after starting to code.
 
 ## Projects
 
-## Game Modding
+### Game Modding
 
 **Men of War: Zombie Mod**  
-**Top 6%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads (fewer than 5% of mods, indie games on Steam, and mobile apps ever reach 100k downloads)
+**Top 6%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads
 
 Total conversion that transforms the classic World War II strategy game into a zombie apocalypse survival experience.
 
@@ -42,8 +38,8 @@ Total conversion that transforms the classic World War II strategy game into a z
 
 **Users have even reported buying the base game just to play this mod.**
 
-"Great mod. I bought men of war for it and I was not disappointed!
-Jul 6 2013 by qwerty2316"
+> "Great mod. I bought men of war for it and I was not disappointed!"  
+> — qwerty2316, Jul 6, 2013
 
 - [ModDB](https://www.moddb.com/mods/men-of-war-zombie-mod)
 
@@ -52,10 +48,6 @@ Jul 6 2013 by qwerty2316"
 
 - [ModDB](https://www.moddb.com/mods/hd-mod)
 
----
-
 ## Running
 
-2x Full Marathons 8x Half Marathons
-
----
+2× Full Marathons · 8× Half Marathons
