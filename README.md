@@ -1,80 +1,61 @@
-Senior Systems Engineer | MSc Candidate 
-
-> **Status:** provisional README while I organize a full portfolio + case studies + evidence archive.  
-> **Goal:** provide a clear, verifiable summary of my work (production ownership + shipped projects) in one place.
+MSc Candidate in Information Systems Engineering**  
+Universidad Tecnológica Nacional, UTN FRBA · Buenos Aires, Argentina
 
 ---
 
-## TL;DR
-- **End-to-end ownership** in high-stakes e-commerce work: triage → coordination → QA gates → production verification → stakeholder/client comms.
-- Built **24/7 E2E monitoring** with Cypress + GitHub Actions + LambdaTest to catch regressions before customers reported them.
-- Shipped real-world products/projects outside work (e.g., large community mod with long-tail reach, Steam release), proving I can **finish and operate** software with real users.
+## Research
 
 ---
 
-## Core strengths
-- **Production ownership:** I take responsibility for outcomes (not just tasks): release readiness, regressions, incident prevention, verification in prod.
-- **Systems thinking:** I enjoy connecting the dots across product, engineering, QA, and operations.
-- **Feedback loops:** I iterate based on real signals (users, stakeholders, failure modes).
-- **Pragmatic execution:** ship → observe → improve (repeat).
+**SDET & Release Lead — Pocima Digital** *(Contractor for GDU — Uruguay's #1 retailer)*  
+*2022 – 2025*
+
+Full ownership of release processes, E2E automation and production stability for high-traffic purchase flows.
+
+- Designed and implemented a 50-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart and checkout — running 24/7 across 3 production sites.
+- Sole responsible for approving **every production deployment**, combining automated and manual verification.
+- Key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off and rollout..
+- Reduced regressions through continuous smoke tests and fast post-deployment validation.
+
+**Frontend Developer — Hello Auto** *(Spain, remote)*  
+*2021 – 2022*
+
+Insurance quoting system and CRM built with React, Node.js and PostgreSQL.
+
+- First engineering role 6 months after starting to code.
+
+## Projects
+
+## Game Modding
+
+**Men of War: Zombie Mod**  
+**Top 6%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads (fewer than 5% of mods, indie games on Steam, and mobile apps ever reach 100k downloads)
+
+Total conversion that transforms the classic World War II strategy game into a zombie apocalypse survival experience.
+
+- [ModDB](https://www.moddb.com/mods/zombie-mod5)
+- [Gameplay Video](https://www.youtube.com/watch?v=3P-1hHL5S8U)
+- [Grokipedia](https://grokipedia.com/page/Zombie_Mod_Men_of_War)
+
+**Men of War: Zombie Assault**  
+**Top 6%** on ModDB · **9.4/10** (52 votes) · **83,900+** verified downloads
+
+**Users have even reported buying the base game just to play this mod.**
+
+"Great mod. I bought men of war for it and I was not disappointed!
+Jul 6 2013 by qwerty2316"
+
+- [ModDB](https://www.moddb.com/mods/men-of-war-zombie-mod)
+
+**Men of War: HD Mod**  
+**Top 8%** on ModDB · **7.1/10** (28 votes) · **19,200+** verified downloads
+
+- [ModDB](https://www.moddb.com/mods/hd-mod)
 
 ---
 
-## Professional experience (high level)
-### E-commerce / Delivery / QA + SWE responsibilities (top retail context)
-- Owned QA gates and release confidence for revenue-critical purchase flows (browse → add-to-cart → checkout).
-- Coordinated delivery: received requests, created/managed tickets, aligned with dev/tech lead, validated fixes, and communicated results back to stakeholders/clients.
-- Implemented **continuous E2E automation** (Cypress) running 24/7 in the cloud (LambdaTest + GitHub Actions) to detect blocking issues early.
-- Performed production verification after deployments and maintained lightweight “smoke tests” to reduce regressions.
+## Running
 
-> Note: I don’t publish confidential client metrics; I will document impact qualitatively and share anonymized patterns/case studies.
+2x Full Marathons 8x Half Marathons
 
 ---
-
-## Proof of work (public / verifiable)
-### 1) Game modding (large-scale community project)
-- Shipped a long-lived mod adopted by a large community, with organic distribution and creator content (videos/mirrors).  
-- Demonstrates: shipping discipline, debugging, iteration via feedback, community support, long-tail impact.
-- Proven Mass-Scale Impact: Created and scaled a digital product to 228,000+ verified downloads and 3,000,000+ organic views across global media.
-
-**Links (WIP):**
-- ModDB: https://www.moddb.com/mods/men-of-war-zombie-mod
-- Older version: https://www.moddb.com/mods/zombie-mod5
-- Mirror: https://mow-portal.ru/load/v_tylu_vraga_2_lis_pustyni/zombie_mod_1_1_part_1/3-1-0-31
-- Example video: https://www.youtube.com/watch?v=3P-1hHL5S8U
-
-### 2) Steam release (project)
-- Published a game on Steam (details to be added ).
-
-### 3) Trading bot (multi-coin, scoring-based strategy)
-- Built a multi-coin trading bot that scored entries using a composite approach (strategy signals → weighted decision).  
-- Will be documented as a technical write-up/whitepaper with clear disclaimers (no financial claims).
-
----
-
-## Technical stack (summary)
-- **Frontend:** React (plus modern JS/TS workflows)
-- **Backend:** Node.js (plus general backend fundamentals)
-- **Testing:** Cypress (E2E), CI pipelines (GitHub Actions), cloud execution (LambdaTest)
-- **Practices:** release gates, smoke testing, regression prevention, stakeholder communication
-
----
-
-## Education
-- **MSc (in progress):** Systems Engineering / Information Systems Engineering (details WIP)
-- **BSc:** Business Administration
-- Self-taught programming path: went from 0 → production work in a short time frame (will be documented as a case study).
-
----
-
-## What I’m building next (portfolio structure)
-This repo will evolve into a hub with:
-- `/case-studies/` → deep dives (e-commerce reliability, modding, Steam project, trading bot)
-- `/evidence/` → PDFs/screenshots/archived links for long-term verification
-- `/artifacts/` → one-pagers, interview packs, and concise summaries
-
----
-
-## Contact
-- LinkedIn: https://www.linkedin.com/in/agustindiazcano
-- GitHub: https://github.com/agustindiazcano
