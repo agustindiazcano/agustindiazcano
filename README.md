@@ -5,12 +5,12 @@
 
 ## Experience
 
-**SDET & Release Lead — Pocima Digital** *(Contractor for GDU — Uruguay's #1 retailer)*  
+**QA Lead & Delivery Manager — Pocima** *(Contractor for GDU — Uruguay's #1 retailer)*  
 *2022 – 2025*
 
 Full ownership of release processes, E2E automation, and production stability for high-traffic purchase flows.
 
-- Designed and implemented a 50-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart, and checkout — running 24/7 across 3 production sites.
+- Designed and implemented a 7-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart, and checkout — running 24/7 across 3 production sites.
 - Responsible for approving **every production deployment**, combining automated and manual verification.
 - Played a key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off, and rollout.
 - Reduced regressions through continuous smoke tests and fast post-deployment validation.
@@ -27,7 +27,7 @@ Insurance quoting system and CRM built with React, Node.js, and PostgreSQL.
 ### Game Modding
 
 **Men of War: Zombie Mod**  
-**Top 6%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads
+**Top 8%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads
 
 Total conversion that transforms the classic World War II strategy game into a zombie apocalypse survival experience.
 
@@ -36,7 +36,7 @@ Total conversion that transforms the classic World War II strategy game into a z
 - [Grokipedia](https://grokipedia.com/page/Zombie_Mod_Men_of_War)
 
 **Men of War: Zombie Assault**  
-**Top 6%** on ModDB · **9.4/10** (52 votes) · **83,900+** verified downloads
+**Top 8%** on ModDB · **9.4/10** (52 votes) · **83,900+** verified downloads
 
 **Users have even reported buying the base game just to play this mod.**
 
