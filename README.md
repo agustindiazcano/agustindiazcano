@@ -5,15 +5,14 @@
 
 ## Experience
 
-**QA Lead & Delivery Manager — Pocima** *(Contractor for GDU — Uruguay's #1 retailer)*  
+**Software Engineer in Test - Pocima** *(Contractor for GDU — Uruguay's #1 retailer)*  
 *2022 – 2025*
 
 Full ownership of release processes, E2E automation, and production stability for high-traffic purchase flows.
 
-- Designed and implemented a 7-test E2E automation suite (Cypress + GitHub Actions + LambdaTest) covering home, PLP, cart, and checkout — running 24/7 across 3 production sites.
-- Responsible for approving **every production deployment**, combining automated and manual verification.
-- Played a key role in the platform migration from jQuery to VTEX IO / React, with full ownership of QA, testing, coordination, client sign-off, and rollout.
-- Reduced regressions through continuous smoke tests and fast post-deployment validation.
+- Orchestrated the testing strategy and maintained hands-on execution of E2E automation (+75 Tests, Cypress, Selenium)  integrated into GitHub Actions and LambdaTest. Directly contributing to the sites' nominations for the eCommerce Awards Uruguay 2024 and 2025. 
+
+- Developed and maintained custom architectures and integrations.
 
 **Frontend Developer — Hello Auto** *(Spain, remote)*  
 *2021 – 2022*
