@@ -1,7 +1,11 @@
 **MSc Candidate in Information Systems Engineering**  
 [Universidad Tecnológica Nacional (UTN FRBA)](https://www.frba.utn.edu.ar/) · Buenos Aires, Argentina
 
-## Research
+Software Engineer specializing in AI/ML and Backend Development (Python), with a strong foundation in Fullstack (React/Node.js) and E2E QA Automation.
+
+Currently pursuing an M.Sc. in Systems Engineering at UTN, focusing on Artificial Intelligence and Data Analysis. My current technical focus is on building scalable backend architectures and integrating GenAI into production. I am actively developing projects leveraging Python, RAG (Retrieval-Augmented Generation), Model Context Protocol (MCP), and LLM orchestration to create robust AI agents and inference engines.
+
+Before pivoting to AI, I spent 4 years delivering and maintaining critical, high-traffic e-commerce platforms for leading LATAM retail chains. My deep background in Fullstack development and QA Automation (Cypress, Selenium, CI/CD) is my biggest asset today.
 
 ## Experience
 
