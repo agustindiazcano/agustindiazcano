@@ -1,15 +1,27 @@
-**MSc Candidate in Information Systems Engineering**  
-[Universidad Tecnológica Nacional (UTN FRBA)](https://www.frba.utn.edu.ar/) · Buenos Aires, Argentina
+# Agustin Diaz-Cano
+**Software Engineer | Backend & AI Developer**
+[MSc Candidate in Information Systems Engineering)](https://www.frba.utn.edu.ar/) | Buenos Aires, Argentina
 
-Software Engineer specializing in AI/ML and Backend Development (Python), with a strong foundation in Fullstack (React/Node.js) and E2E QA Automation.
+Currently pursuing an M.Sc. in Systems Engineering focused on AI/ML. My technical focus is on **LLM orchestration, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP)**. Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing multi-million dollar e-commerce platforms. Participated in more than 10 projects that reached production.
 
-Currently pursuing an M.Sc. in Systems Engineering at UTN, focusing on Artificial Intelligence and Data Analysis. My current technical focus is on building scalable backend architectures and integrating GenAI into production. I am actively developing projects leveraging Python, RAG (Retrieval-Augmented Generation), Model Context Protocol (MCP), and LLM orchestration to create robust AI agents and inference engines.
+## Projects
 
-Before pivoting to AI, I spent 4 years delivering and maintaining critical, high-traffic e-commerce platforms for leading LATAM retail chains. My deep background in Fullstack development and QA Automation (Cypress, Selenium, CI/CD) is my biggest asset today.
+**[Agentic MCP Engine and RAG Gateway]([https://github.com/agustindiazcano/TU-REPO-AQUI](https://github.com/agustindiazcano/mcp-transactional-agent))**  
 
-## Experience
+*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP*
+* An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks) without giving the model direct access to the database.
+* Implements an event-driven pipeline with deterministic guardrails, pessimistic row locking (`SELECT ... FOR UPDATE`), and Chaos Engineering failure-injection tests.
+* Features an "Asymmetric Double LLM-as-a-Judge" consensus mechanism with a Supreme Court cascade for tie-breaking.
 
-**Software Engineer in Test - Pocima** *(Contractor for GDU — Uruguay's #1 retailer)*  
+Writing & Talks
+
+* **[Predicting the Generative AI Boom (March 2021)](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom)**: Delivered a technical presentation forecasting the impact of LLM scaling and natural language code generation 20 months prior to ChatGPT's launch.
+
+* **[Fundamental Principles of Scientific Validation](https://www.agustindiazcano.com/writing/fundamental-principles)**: An essay exploring the epistemology of predictive models, Occam’s Razor, and the dangers of statistical overfitting.
+
+## Professional Experience
+
+**Software Engineer in Test & QA Lead - Pocima** *(Contractor for GDU — Uruguay's #1 retailer)*  
 *2022 – 2025*
 
 Full ownership of release processes, E2E automation, and production stability for high-traffic purchase flows.
@@ -18,16 +30,17 @@ Full ownership of release processes, E2E automation, and production stability fo
 
 - Developed and maintained custom architectures and integrations.
 
-**Frontend Developer — Hello Auto** *(Spain, remote)*  
+**Frontend Engineer — Hello Auto** *(Spain, remote)*  
 *2021 – 2022*
 
-Insurance quoting system and CRM built with React, Node.js, and PostgreSQL.
-
-- First engineering role 6 months after starting to code.
+- Built the core calculation logic and asynchronous data handling for a real-time insurance quoting engine.
+- Shipped my first production PR 6 months after writing my first line of code (Pre AI era).
 
 ## Projects
 
-### Game Modding
+### Game Development
+
+I created full modifications for the Men of War series as a solo developer, reaching over 200,000 downloads. Only a small percentage of Steam games, mods, and mobile apps (typically under 2-5%, and often closer to 1% for the 100k threshold) ever reach that level of adoption.
 
 **Men of War: Zombie Mod**  
 **Top 8%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads
@@ -53,6 +66,6 @@ Total conversion that transforms the classic World War II strategy game into a z
 
 - [ModDB](https://www.moddb.com/mods/hd-mod)
 
-## Running
+## Interests
 
-2× Full Marathons · 8× Half Marathons
+Long-distance running:** Completed 2× Full Marathons (42k) and 8× Half Marathons (21k). Discipline compounds.
