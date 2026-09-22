@@ -2,9 +2,9 @@
 **Software Engineer | Backend & AI Developer** |
 MSc Candidate in Information Systems Engineering (UTN) | Buenos Aires, Argentina
 
-Python Developer with 4+ years of experience in software development, specializing in AI/ML and Backend Development. My interest in machine learning goes back to 2020, when I completed an introductory Machine Learning course, and deepened in March 2021, when I gave a [bootcamp presentation on AI](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom) covering generative AI and deep learning, well before the field entered the mainstream. Currently pursuing an M.Sc. in Systems Engineering at UTN, focused on Artificial Intelligence and Data Analysis. My technical focus is building backend architectures that integrate GenAI in production-realistic conditions, not just prototypes, working with Python, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to explore LLM orchestration and AI agent design.
+Python Developer with 4+ years of experience in software development, specializing in AI/ML and Backend Development, having contributed to the development and maintenance of 10+ production projects used by hundreds of thousands of users across Spain and Latin America. My interest in machine learning goes back to 2020, when I completed an introductory Machine Learning course, and deepened in March 2021, when I gave a [bootcamp presentation on AI](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom) covering generative AI and deep learning, well before the field entered the mainstream. Currently pursuing an M.Sc. in Systems Engineering at UTN, focused on Artificial Intelligence and Data Analysis. My technical focus is building backend architectures that integrate GenAI in production-realistic conditions, not just prototypes, working with Python, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to explore LLM orchestration and AI agent design.
 
-Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing large-scale e-commerce platforms, with full Go/No-Go authority on production releases and no dedicated QA team. Participated in more than 10 projects that reached production.
+Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing large-scale e-commerce platforms, with full Go/No-Go authority on production releases and no dedicated QA team.
 
 Transitioned from zero coding background in the pre-AI era: wrote my first line of code in October 2020, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at an international fintech.
 
@@ -15,10 +15,13 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
 
-*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP*
-* An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks) without giving the model direct access to the database.
-* Implements an event-driven pipeline with deterministic guardrails, pessimistic row locking (`SELECT ... FOR UPDATE`), and Chaos Engineering failure-injection tests.
-* Features an "Asymmetric Double LLM-as-a-Judge" consensus mechanism with a Supreme Court cascade for tie-breaking.
+*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain*
+* An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic.
+* MCP server as the only path to side-effecting tools, secured with token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log; a dedicated test verifies that a prompt-injection attempt cannot extend a caller's tool access.
+* RAG over business rules via pgvector, with a provider-agnostic embeddings pipeline validated end-to-end against real claims; caught and fixed my own use of the wrong distance operator (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
+* Provider-agnostic LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq) via an Abstract Factory, so different agents and judges can run on different providers at the same time.
+* "Asymmetric Double LLM-as-a-Judge" consensus with a Supreme Court cascade for tie-breaking, plus pessimistic row locking (`SELECT ... FOR UPDATE`) and a recovery sweeper for crashed workers.
+* Diagnosed and fixed a real concurrency bug found under load testing (an unhandled import error masquerading as an MCP transport failure), backed by measured results: 82% test coverage, 10 ranked failure-injection scenarios, P95 latency of 87ms at 45+ req/s with zero failures, and cost tracked per transaction (~$0.0004).
 
 **[AI Crypto Trading Agent](https://github.com/agustindiazcano/<repo-name>)**
 
@@ -91,7 +94,7 @@ Group project applying knowledge-based systems methodology (ontology design, rul
 
 ## Interests
 
-**Long-distance running:** Completed 2× Full Marathons (42k) and 8× Half Marathons (21k). Discipline compounds.
+**[Long-distance running](https://www.agustindiazcano.com/running-agustin-diaz-cano):** Completed 2× Full Marathons (42k) and 8× Half Marathons (21k). Discipline compounds.
 
 ## Writing
 
