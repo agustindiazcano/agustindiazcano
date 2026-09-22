@@ -52,7 +52,7 @@ Fullstack engineer and technical owner of the release pipeline, test automation 
 **Frontend Engineer, Hello Auto** *(Fintech / Insurtech, Spain, remote)*
 *2021 – 2022*
 
-- Built the core calculation logic and asynchronous data handling for a real-time insurance quoting engine.
+- Contributed to the development, production deployment, and maintenance of the real-time premium calculation logic and asynchronous data handling behind a live insurance quoting engine used by real customers, not an internal tool.
 - Shipped my first production PR 6 months after writing my first line of code (pre-AI era).
 
 ## Game Development
