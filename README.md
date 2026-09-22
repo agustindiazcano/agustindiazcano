@@ -57,7 +57,7 @@ Fullstack engineer and technical owner of the release pipeline, test automation 
 
 ## Game Development
 
-I created full modifications for the Men of War series as a solo developer, reaching over 200,000 downloads. Only a small percentage of Steam games, mods, and mobile apps (typically under 2-5%, and often closer to 1% for the 100k threshold) ever reach that level of adoption.
+I created full modifications for the Men of War series as a solo developer, with no publisher, marketing budget, or paid promotion, reaching over 200,000 organic downloads. Only a small percentage of Steam games, mods, and mobile apps (typically under 2-5%, and often closer to 1% for the 100k threshold) ever reach that level of adoption, and that benchmark already includes titles with paid user acquisition behind them.
 
 **Men of War: Zombie Mod**
 **Top 8%** of 65,000+ mods on ModDB · **9.0/10** (93 votes) · **112,900+** verified downloads
