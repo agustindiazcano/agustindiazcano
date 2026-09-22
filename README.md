@@ -6,7 +6,7 @@ Currently pursuing an M.Sc. in Systems Engineering focused on AI/ML. My technica
 
 ## Projects
 
-**[Agentic MCP Engine and RAG Gateway]([https://github.com/agustindiazcano/TU-REPO-AQUI](https://github.com/agustindiazcano/mcp-transactional-agent))**  
+**[Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**  
 
 *Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP*
 * An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks) without giving the model direct access to the database.
