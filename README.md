@@ -1,6 +1,6 @@
 # Agustin Diaz-Cano
-**Software Engineer | Backend & AI Developer**
-[MSc Candidate in Information Systems Engineering)](https://www.frba.utn.edu.ar/) | Buenos Aires, Argentina
+**Software Engineer | Backend & AI Developer** | 
+MSc Candidate in Information Systems Engineering (UTN) | Buenos Aires, Argentina
 
 Currently pursuing an M.Sc. in Systems Engineering focused on AI/ML. My technical focus is on **LLM orchestration, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP)**. Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing multi-million dollar e-commerce platforms. Participated in more than 10 projects that reached production.
 
