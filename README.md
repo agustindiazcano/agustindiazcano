@@ -39,7 +39,7 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 
 ## Professional Experience
 
-**Full Stack Developer & QA Lead - Pocima** *(Contractor for GDU, Uruguay's #1 retailer)*
+**Full Stack Developer | SDET | QA Lead** *(Contractor for GDU, Uruguay's #1 retailer)*
 *Aug 2022 – Jun 2025*
 
 Fullstack engineer and technical owner of the release pipeline, test automation architecture, and production stability for Grupo GDU's e-commerce platforms (Disco, Devoto, Geant), serving hundreds of thousands of users monthly across web and mobile.
