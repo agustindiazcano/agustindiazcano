@@ -24,7 +24,7 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 * Diagnosed and fixed a real concurrency bug found under Locust distributed load testing (an unhandled import error masquerading as an MCP transport failure), backed by measured results: 111 tests (81 unit, 30 integration against real PostgreSQL and RabbitMQ) at 80% coverage, 10 ranked failure-injection scenarios, validated P95 latency of 87ms at 45+ req/s with zero failures, and cost tracked per transaction (~$0.0004).
 * Architected for zero-trust cloud deployment via Google Cloud Platform (Cloud Run, Cloud SQL), leveraging the Vertex AI SDK to ensure enterprise-grade data privacy (Zero Data Retention) over public APIs.
 
-**[AI Crypto Trading Agent](https://github.com/agustindiazcano/<repo-name>)**
+**[AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)**
 
 *Python, WebSockets, Binance API, PostgreSQL, Redis, FastAPI (roadmap), pgvector + RAG (roadmap)*
 * A quantitative trading system for Binance evolving from rule-based scripts into a service-oriented decision-making agent: real-time market ingestion, technical-signal scoring (MACD/DEA, Bollinger, ADX, RSI, ATR), risk management, and order execution.
