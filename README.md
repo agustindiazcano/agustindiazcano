@@ -6,7 +6,7 @@ Python Developer with 4+ years of experience in software development, specializi
 
 Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing large-scale e-commerce platforms, with full Go/No-Go authority on production releases and no dedicated QA team.
 
-Transitioned from zero coding background in the pre-AI era: wrote my first line of code in October 2020, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at an international fintech.
+Transitioned from zero coding background in the pre-AI era: wrote my first line of code in October 2020, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
 
 ## Projects
 
@@ -49,7 +49,7 @@ Fullstack engineer and technical owner of the release pipeline, test automation 
 - Developed and maintained custom internal tooling and integrations to support release monitoring and cross-device validation.
 - Contributed to the platforms' nominations for the eCommerce Awards Uruguay in 2024 and 2025.
 
-**Frontend Engineer, Hello Auto** *(Spain, remote)*
+**Frontend Engineer, Hello Auto** *(Fintech / Insurtech, Spain, remote)*
 *2021 – 2022*
 
 - Built the core calculation logic and asynchronous data handling for a real-time insurance quoting engine.
