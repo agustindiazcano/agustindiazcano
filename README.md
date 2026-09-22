@@ -39,21 +39,26 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 
 ## Professional Experience
 
-**Software Engineer in Test & QA Lead - Pocima** *(Contractor for GDU, Uruguay's #1 retailer)*
-*2022 – 2025*
+**Full Stack Developer & QA Lead - Pocima** *(Contractor for GDU, Uruguay's #1 retailer)*
+*Aug 2022 – Jun 2025*
 
 Fullstack engineer and technical owner of the release pipeline, test automation architecture, and production stability for Grupo GDU's e-commerce platforms (Disco, Devoto, Geant), serving hundreds of thousands of users monthly across web and mobile.
 
-- Built pages and features in React, and maintained a 5,000+ line jQuery checkout flow in production, serving hundreds of thousands of users.
+**Full Stack Developer | SDET | QA Lead** *(Feb 2023 – Jun 2025)*
+- Built pages and features in React, and maintained a 5,000+ line jQuery checkout flow in production, handling API integrations and JSON data modeling, serving hundreds of thousands of users.
 - Held full Go/No-Go and rollback authority on production releases with no dedicated QA team, working directly with backend teams to diagnose and resolve issues before deployment.
 - Designed and built the automation architecture from scratch (Selenium, then Cypress; +75 E2E tests) integrated into CI/CD pipelines with GitHub Actions and LambdaTest, running continuously against production.
 - Developed and maintained custom internal tooling and integrations to support release monitoring and cross-device validation.
 - Contributed to the platforms' nominations for the eCommerce Awards Uruguay in 2024 and 2025.
 
-**Frontend Engineer, Hello Auto** *(Fintech / Insurtech, Spain, remote)*
+**Full Stack Developer** *(Aug 2022 – Feb 2023)*
+- Built and maintained custom integrations and architectures across BigCommerce, VTEX IO, and Odoo (React, Node.js).
+- Led the end-to-end migration of the flagship site from legacy jQuery to React + VTEX IO.
+
+**Frontend Developer, Hello Auto** *(Fintech / Insurtech, Spain, remote)*
 *2021 – 2022*
 
-- Contributed to the development, production deployment, and maintenance of the real-time premium calculation logic and asynchronous data handling behind a live insurance quoting engine used by real customers, not an internal tool.
+- Built, maintained, and tested the real-time premium calculation logic, API integrations, and JSON data handling behind a live insurance quoting engine — external-user UI and internal CRM — used by real customers, not an internal tool. Stack: React, Node.js, JavaScript, Azure DevOps, Git.
 - Shipped my first production PR 6 months after writing my first line of code (pre-AI era).
 
 ## Game Development
