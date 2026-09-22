@@ -15,13 +15,14 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
 
-*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain*
+*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain, Google Cloud (Cloud Run, Cloud SQL), Vertex AI*
 * An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic.
 * MCP server as the only path to side-effecting tools, secured with token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log; a dedicated test verifies that a prompt-injection attempt cannot extend a caller's tool access.
 * RAG over business rules via pgvector, with a provider-agnostic embeddings pipeline validated end-to-end against real claims; caught and fixed my own use of the wrong distance operator (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
 * Provider-agnostic LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq) via an Abstract Factory, so different agents and judges can run on different providers at the same time.
 * "Asymmetric Double LLM-as-a-Judge" consensus with a Supreme Court cascade for tie-breaking, plus pessimistic row locking (`SELECT ... FOR UPDATE`) and a recovery sweeper for crashed workers.
-* Diagnosed and fixed a real concurrency bug found under load testing (an unhandled import error masquerading as an MCP transport failure), backed by measured results: 82% test coverage, 10 ranked failure-injection scenarios, P95 latency of 87ms at 45+ req/s with zero failures, and cost tracked per transaction (~$0.0004).
+* Diagnosed and fixed a real concurrency bug found under Locust distributed load testing (an unhandled import error masquerading as an MCP transport failure), backed by measured results: 82% test coverage, 10 ranked failure-injection scenarios, validated P95 latency of 87ms at 45+ req/s with zero failures, and cost tracked per transaction (~$0.0004).
+* Architected for zero-trust cloud deployment via Google Cloud Platform (Cloud Run, Cloud SQL), leveraging the Vertex AI SDK to ensure enterprise-grade data privacy (Zero Data Retention) over public APIs.
 
 **[AI Crypto Trading Agent](https://github.com/agustindiazcano/<repo-name>)**
 
