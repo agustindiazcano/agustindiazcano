@@ -29,14 +29,23 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
 
-*Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain, Google Cloud (Cloud Run, Cloud SQL), Vertex AI*
-* An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic.
-* MCP server as the only path to side-effecting tools, secured with token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log; a dedicated test verifies that a prompt-injection attempt cannot extend a caller's tool access.
-* RAG over business rules via pgvector, with a provider-agnostic embeddings pipeline validated end-to-end against real claims; caught and fixed my own use of the wrong distance operator (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
-* Provider-agnostic LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq) via an Abstract Factory, so different agents and judges can run on different providers at the same time.
-* "Asymmetric Double LLM-as-a-Judge" consensus with a Supreme Court cascade for tie-breaking, plus pessimistic row locking (`SELECT ... FOR UPDATE`) and a recovery sweeper for crashed workers.
-* Diagnosed and fixed a real concurrency bug found under Locust distributed load testing (an unhandled import error masquerading as an MCP transport failure), backed by measured results: 111 tests (81 unit, 30 integration against real PostgreSQL and RabbitMQ) at 80% coverage, 10 ranked failure-injection scenarios, validated P95 latency of 87ms at 45+ req/s with zero failures, and cost tracked per transaction (~$0.0004).
-* Architected for zero-trust cloud deployment via Google Cloud Platform (Cloud Run, Cloud SQL), leveraging the Vertex AI SDK to ensure enterprise-grade data privacy (Zero Data Retention) over public APIs.
+**Stack: Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain, Streamlit, Google Cloud (Cloud Run, Cloud SQL), Vertex AI**
+
+An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic.
+
+* The MCP server acts as the absolute only path to side-effecting tools like executing real financial refunds. This boundary is secured with token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log, including a dedicated test that verifies a prompt-injection attempt cannot extend a caller's tool access.
+
+* Strict data integrity is enforced via pessimistic row locking (SELECT ... FOR UPDATE) and asynchronous queues. The architecture's resilience was proven through chaos testing, successfully surviving intentional worker kills and RabbitMQ broker restarts under a 2,000-message load with zero lost messages and zero double refunds.
+
+* Decisions rely on an "Asymmetric Double LLM-as-a-Judge" consensus mechanism with a Supreme Court cascade for tie-breaking, while a Streamlit dashboard handles claim ingestion and provides full UI observability of the LLM reasoning trails.
+
+* The RAG pipeline over business rules uses pgvector and provider-agnostic embeddings, validated end-to-end against real claims. During development, I caught and fixed an architectural issue with the distance operator (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
+
+* An Abstract Factory handles provider-agnostic LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq), allowing different agents and judges to run on different providers simultaneously.
+
+* The entire system is backed by 221 tests (172 unit, 49 integration) against real PostgreSQL and RabbitMQ instances, achieving 84% coverage. Distributed load testing via Locust validated a P95 latency of 87ms at 45+ req/s with zero failures, tracking inference costs down to ~$0.0004 per transaction.
+
+* The stack is architected for zero-trust cloud deployment via Google Cloud Platform (Cloud Run, Cloud SQL), leveraging the Vertex AI SDK to ensure enterprise-grade data privacy through Zero Data Retention policies over public APIs.
 
 **[AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)**
 
