@@ -29,23 +29,26 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
 
-**Stack: Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain, Streamlit, Google Cloud (Cloud Run, Cloud SQL), Vertex AI**
+**Stack: Python, FastAPI, PostgreSQL, pgvector, RabbitMQ, Docker, MCP, LangChain, Langfuse, Streamlit, Terraform, GitHub Actions (CI/CD), Google Cloud (Cloud Run, Cloud SQL, Secret Manager), Vertex AI**
 
-An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic.
+An asynchronous workflow engine for running LLM agents against transactional business logic (e.g., refunds, fraud checks), built around one question: how much of an AI system's decisions can be made deterministic and auditable instead of left probabilistic. LLMs evaluate; only deterministic code executes side effects.
 
-* The MCP server acts as the absolute only path to side-effecting tools like executing real financial refunds. This boundary is secured with token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log, including a dedicated test that verifies a prompt-injection attempt cannot extend a caller's tool access.
+* The MCP server is the only path to side-effecting tools such as executing refunds. This boundary is secured with 
+token authentication, per-tool authorization, sliding-window rate limiting, and a fail-closed audit log, including a
+dedicated test that verifies a prompt-injection attempt cannot extend a caller's tool access.                   
+Data integrity is enforced with idempotency keys, pessimistic row locking (SELECT ... FOR UPDATE) and asynchronousqueues. Chaos testing (2,000 claims, worker killed twice, RabbitMQ restarted mid-run) ended with zero lost messages and zero double refunds, after finding and fixing two real bugs: non-persistent messages dropped on broker restart, and a worker crash on a closed channel.
 
-* Strict data integrity is enforced via pessimistic row locking (SELECT ... FOR UPDATE) and asynchronous queues. The architecture's resilience was proven through chaos testing, successfully surviving intentional worker kills and RabbitMQ broker restarts under a 2,000-message load with zero lost messages and zero double refunds.
+* Decisions pass a Prompt Guard pre-filter and an "Asymmetric Double LLM-as-a-Judge" (Gemini + GPT-OSS, two model families) with a Supreme Court cascade for tie-breaking. A Streamlit dashboard handles claim ingestion and shows each judge's reasoning trail.
 
-* Decisions rely on an "Asymmetric Double LLM-as-a-Judge" consensus mechanism with a Supreme Court cascade for tie-breaking, while a Streamlit dashboard handles claim ingestion and provides full UI observability of the LLM reasoning trails.
+* The RAG pipeline over business rules uses pgvector and provider-agnostic embeddings, validated end-to-end against real claims. During development, I caught and fixed a distance-operator bug (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
 
-* The RAG pipeline over business rules uses pgvector and provider-agnostic embeddings, validated end-to-end against real claims. During development, I caught and fixed an architectural issue with the distance operator (Euclidean instead of cosine) before it could silently corrupt retrieval ranking.
+* A provider factory handles LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq), so each judge role can run on a different provider, or all of them on a mock for cost-free load tests.
 
-* An Abstract Factory handles provider-agnostic LLM routing (OpenAI, Gemini, Vertex AI, Bedrock, Groq), allowing different agents and judges to run on different providers simultaneously.
+* Every claim is traced end to end with Langfuse (guardrail, retrieval, each judge, tool call), with PII masked before export and tracing that can never change a claim's outcome.
 
-* The entire system is backed by 221 tests (172 unit, 49 integration) against real PostgreSQL and RabbitMQ instances, achieving 84% coverage. Distributed load testing via Locust validated a P95 latency of 87ms at 45+ req/s with zero failures, tracking inference costs down to ~$0.0004 per transaction.
+* 300 tests (245 unit, 55 integration) against real PostgreSQL and RabbitMQ, 86% coverage, gated in CI. Locust load testing measured a P95 of 87 ms at 45+ req/s with zero failures; inference cost measured at ~$0.0004 per transaction.
 
-* The stack is architected for zero-trust cloud deployment via Google Cloud Platform (Cloud Run, Cloud SQL), leveraging the Vertex AI SDK to ensure enterprise-grade data privacy through Zero Data Retention policies over public APIs.
+* Deployed on Google Cloud with Terraform and full CI/CD: every push is linted, type-checked and tested, and every merge to main is built, pushed and deployed to Cloud Run by GitHub Actions through Workload Identity Federation, with no keys stored in GitHub. Cloud SQL with pgvector, Secret Manager with per-secret access, one least-privilege service account per service, and Vertex AI authenticated by service account instead of API keys. Real claims run end to end in the cloud.
 
 **[AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)**
 
