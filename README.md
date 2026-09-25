@@ -1,10 +1,9 @@
 # Agustin Diaz-Cano | https://www.agustindiazcano.com
-**Software Engineer | Backend & AI Developer** |
-MSc Candidate in Information Systems Engineering (UTN) | Buenos Aires, Argentina
+**Software Engineer | Backend & AI Developer** | MSc Candidate in Information Systems Engineering [UTN](https://frba.utn.edu.ar) | Buenos Aires, Argentina
 
-Python Developer with 4+ years of experience in software development, specializing in AI/ML and Backend Development, having contributed to the development and maintenance of 10+ production projects used by hundreds of thousands of users across Spain and Latin America. My interest in machine learning goes back to 2020, when I completed an introductory Machine Learning course, and deepened in March 2021, when I gave a [bootcamp presentation on AI](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom) covering generative AI and deep learning, well before the field entered the mainstream. Currently pursuing an M.Sc. in Systems Engineering at UTN, focused on Artificial Intelligence and Data Analysis. My technical focus is building backend architectures that integrate GenAI in production-realistic conditions, not just prototypes, working with Python, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to explore LLM orchestration and AI agent design.
+Python Developer with 4+ years of experience in software development, specializing in AI/ML and Backend Development, having contributed to the development and maintenance of 10+ production projects used by hundreds of thousands of users across Spain and Latin America. My interest in machine learning goes back to 2020, when I completed an introductory Machine Learning course, and deepened in March 2021, when I gave a [bootcamp presentation on AI covering generative AI and deep learning](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom), well before the field entered the mainstream. Currently pursuing an M.Sc. in Information Systems Engineering at UTN (CONEAU-accredited, Category A). My thesis investigates LLM-guided reinforcement learning for legged robot navigation, evaluating RBF networks as an interpretable alternative to standard MLP policies, benchmarked in MuJoCo and grid-based environments. My technical focus is building backend architectures that integrate GenAI in production-realistic conditions, not just prototypes, working with Python, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to explore LLM orchestration and AI agent design.
 
-Before pivoting to AI backend engineering, I spent 4 years as a Fullstack Developer and Sole QA Owner governing large-scale e-commerce platforms, with full Go/No-Go authority on production releases and no dedicated QA team.
+Before pivoting to AI backend engineering, I spent 4 years as a Full-Stack Test Automation Engineer and Sole QA Owner governing large-scale e-commerce platforms (frontend, database, and backend automation), with full Go/No-Go authority on production releases and no dedicated QA team.
 
 Transitioned from zero coding background in the pre-AI era: wrote my first line of code in October 2020, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
 
@@ -21,6 +20,23 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
 </p>
 
+## Research
+
+**M.Sc. Thesis [UTN](https://frba.utn.edu.ar)**
+
+*LLM-Guided Reinforcement Learning for Legged Robot Navigation, UTN MSc, Jan 2026 - Present*
+
+Investigating a hierarchical neuro-symbolic architecture for quadruped robots: an RBF-based perceptual layer generates interpretable concept activations, and an LLM resolves navigation decisions only in ambiguous cases where multiple concepts compete, analogous to the hierarchical escalation approach used by NVIDIA. Currently in the experimental phase, benchmarking RBF vs. MLP policies (curriculum learning, grid-based navigation) prior to full integration in MuJoCo.
+
+[View Repository](https://github.com/agustindiazcano/msc-thesis-neurosymbolic-llm-rl-navigation)
+
+**Artificial Intelligence Based Bug Triage System, [UTN](https://frba.utn.edu.ar) MSc Project**
+
+*Knowledge Engineering & Fuzzy Logic, November 2024*
+
+[View Repository](https://github.com/agustindiazcano/fuzzy-logic-expert-system-qa-triage) · [Write-up](https://www.agustindiazcano.com/research/bug-triage-system)
+
+Group project applying knowledge-based systems methodology (ontology design, rule-based inference, fuzzy logic) to reduce false positives in e-commerce bug triage. I served as domain expert during knowledge acquisition, drawing on real QA/e-commerce experience. All case data is fictional.
 
 ## Projects
 
@@ -114,15 +130,6 @@ Total conversion that transforms the classic World War II strategy game into a z
 **Top 8%** on ModDB · **7.1/10** (28 votes) · **19,200+** verified downloads
 
 - [ModDB](https://www.moddb.com/mods/hd-mod)
-
-## Research
-
-**Artificial Intelligence Based Bug Triage System**
-*Knowledge Engineering & Fuzzy Logic, UTN MSc, November 2024*
-
-[View Repository](https://github.com/agustindiazcano/fuzzy-logic-expert-system-qa-triage) · [Write-up](https://www.agustindiazcano.com/research/bug-triage-system)
-
-Group project applying knowledge-based systems methodology (ontology design, rule-based inference, fuzzy logic) to reduce false positives in e-commerce bug triage. I served as domain expert during knowledge acquisition, drawing on real QA/e-commerce experience. All case data is fictional.
 
 ## Interests
 
