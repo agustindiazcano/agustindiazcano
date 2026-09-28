@@ -58,7 +58,7 @@ A multi-agent mutation testing system that measures whether your tests actually 
 - **Enterprise Infrastructure:** Full infrastructure as code (IaC) with Terraform + Workload Identity Federation (no service account keys). Backend on Cloud Run + Postgres on Cloud SQL; Frontend on Vercel.
 - **Deterministic Guardrails:** 30+ automated verification checks and strong AST-based guardrails against LLM hallucinations and cheating tests.
 
-🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)]([https://youtube.com/tu-link-aqui](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s))** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
+🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s)** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
 
 **[Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**
 
