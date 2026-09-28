@@ -42,7 +42,7 @@ A multi-agent mutation testing system that measures whether your tests actually 
 
 🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s)** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
 
-### [Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**
+### [Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)
 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
@@ -68,14 +68,14 @@ Data integrity is enforced with idempotency keys, pessimistic row locking (SELEC
 
 * Deployed on Google Cloud with Terraform and full CI/CD: every push is linted, type-checked and tested, and every merge to main is built, pushed and deployed to Cloud Run by GitHub Actions through Workload Identity Federation, with no keys stored in GitHub. Cloud SQL with pgvector, Secret Manager with per-secret access, one least-privilege service account per service, and Vertex AI authenticated by service account instead of API keys. Real claims run end to end in the cloud.
 
-**[AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)**
+### [AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)
 
 *Python, WebSockets, Binance API, PostgreSQL, Redis, FastAPI (roadmap), pgvector + RAG (roadmap)*
 * A quantitative trading system for Binance evolving from rule-based scripts into a service-oriented decision-making agent: real-time market ingestion, technical-signal scoring (MACD/DEA, Bollinger, ADX, RSI, ATR), risk management, and order execution.
 * Phased roadmap from stabilization and infrastructure (Postgres/Redis/Docker) through backtesting-driven calibration, RAG-based sentiment intelligence, and genetic-algorithm strategy optimization, each phase gated behind empirical validation before promotion.
 * Currently in simulation mode (`REAL_TRADES=False`) pending Phase 1 stabilization and backtest validation, with an 18-item known-bugs log tracked openly in the README.
 
-**[OpenAI Parameter Golf, LLM Optimizer Experiments](https://github.com/agustindiazcano/openai-llm-optimizers-parameter-golf)** *(repo under construction, March-April 2026)*
+### [OpenAI Parameter Golf, LLM Optimizer Experiments](https://github.com/agustindiazcano/openai-llm-optimizers-parameter-golf) *(repo under construction, March-April 2026)*
 
 *Python, PyTorch, RunPod (H100 clusters)*
 * Participated in OpenAI's 16MB Parameter Golf Challenge: training LLMs under extreme 16MB memory constraints using custom optimizers.
