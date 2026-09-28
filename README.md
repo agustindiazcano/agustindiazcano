@@ -40,6 +40,26 @@ Group project applying knowledge-based systems methodology (ontology design, rul
 
 ## Projects
 
+### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
+
+![Home](https://github.com/agustindiazcano/credentials/blob/main/certificates/IBM-Bob-2-0-hackathon-certificate-agustin-diaz-cano-app-front.png?raw=true)
+*(Home)*
+
+Built from scratch in 48 hours for the **IBM Bob 2.0 Hackathon**. 
+
+ *One of 1,124 successful submissions out of 3,464 teams (15,727 participants) — Top 32% delivery rate.*
+
+**Stack:** Python, FastAPI, Next.js, TypeScript, PostgreSQL, Docker, Terraform, GitHub Actions (CI/CD), Google Cloud Run, Cloud SQL, Vercel, MCP, Vertex AI (Gemini), IBM watsonx.ai, Playwright.
+
+A multi-agent mutation testing system that measures whether your tests actually catch bugs (not just line coverage), then uses AI agents to write the missing ones. Features a custom AST mutation engine, a parallel multi-agent swarm (Writer + Critic + Gate), native MCP server, full CI/CD, and multi-cloud AI infrastructure.
+
+- ~20,000+ lines of code (Python engine + TypeScript frontend + IaC + verification scripts) written in a single weekend.
+- **AI-Assisted Development:** Orchestrated almost entirely using IBM Bob IDE 2.0, Claude Code and Google Antigravity.
+- **Enterprise Infrastructure:** Full infrastructure as code (IaC) with Terraform + Workload Identity Federation (no service account keys). Backend on Cloud Run + Postgres on Cloud SQL; Frontend on Vercel.
+- **Deterministic Guardrails:** 30+ automated verification checks and strong AST-based guardrails against LLM hallucinations and cheating tests.
+
+🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)]([https://youtube.com/tu-link-aqui](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s))** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
+
 **[Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**
 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
