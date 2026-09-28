@@ -20,24 +20,6 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
 </p>
 
-## Research
-
-**M.Sc. Thesis [UTN](https://frba.utn.edu.ar)**
-
-*LLM-Guided Reinforcement Learning for Legged Robot Navigation, UTN MSc, Jan 2026 - Present*
-
-Investigating a hierarchical neuro-symbolic architecture for quadruped robots: an RBF-based perceptual layer generates interpretable concept activations, and an LLM resolves navigation decisions only in ambiguous cases where multiple concepts compete, analogous to the hierarchical escalation approach used by NVIDIA. Currently in the experimental phase, benchmarking RBF vs. MLP policies (curriculum learning, grid-based navigation) prior to full integration in MuJoCo.
-
-[View Repository](https://github.com/agustindiazcano/msc-thesis-neurosymbolic-llm-rl-navigation)
-
-**Artificial Intelligence Based Bug Triage System, [UTN](https://frba.utn.edu.ar) MSc Project**
-
-*Knowledge Engineering & Fuzzy Logic, November 2024*
-
-[View Repository](https://github.com/agustindiazcano/fuzzy-logic-expert-system-qa-triage) · [Write-up](https://www.agustindiazcano.com/research/bug-triage-system)
-
-Group project applying knowledge-based systems methodology (ontology design, rule-based inference, fuzzy logic) to reduce false positives in e-commerce bug triage. I served as domain expert during knowledge acquisition, drawing on real QA/e-commerce experience. All case data is fictional.
-
 ## Projects
 
 ### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
@@ -60,7 +42,7 @@ A multi-agent mutation testing system that measures whether your tests actually 
 
 🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s)** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
 
-**[Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**
+### [Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)**
 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
 *(dashboard built with Streamlit)*
@@ -122,6 +104,24 @@ Fullstack engineer and technical owner of the release pipeline, test automation 
 
 - Built, maintained, and tested the real-time premium calculation logic, API integrations, and JSON data handling behind a live insurance quoting engine — external-user UI and internal CRM — used by real customers, not an internal tool. Stack: React, Node.js, JavaScript, Azure DevOps, Git.
 - Shipped my first production PR 6 months after writing my first line of code (pre-AI era).
+
+## Research
+
+**M.Sc. Thesis [UTN](https://frba.utn.edu.ar)**
+
+*LLM-Guided Reinforcement Learning for Legged Robot Navigation, UTN MSc, Jan 2026 - Present*
+
+Investigating a hierarchical neuro-symbolic architecture for quadruped robots: an RBF-based perceptual layer generates interpretable concept activations, and an LLM resolves navigation decisions only in ambiguous cases where multiple concepts compete, analogous to the hierarchical escalation approach used by NVIDIA. Currently in the experimental phase, benchmarking RBF vs. MLP policies (curriculum learning, grid-based navigation) prior to full integration in MuJoCo.
+
+[View Repository](https://github.com/agustindiazcano/msc-thesis-neurosymbolic-llm-rl-navigation)
+
+**Artificial Intelligence Based Bug Triage System, [UTN](https://frba.utn.edu.ar) MSc Project**
+
+*Knowledge Engineering & Fuzzy Logic, November 2024*
+
+[View Repository](https://github.com/agustindiazcano/fuzzy-logic-expert-system-qa-triage) · [Write-up](https://www.agustindiazcano.com/research/bug-triage-system)
+
+Group project applying knowledge-based systems methodology (ontology design, rule-based inference, fuzzy logic) to reduce false positives in e-commerce bug triage. I served as domain expert during knowledge acquisition, drawing on real QA/e-commerce experience. All case data is fictional.
 
 ## Game Development
 
