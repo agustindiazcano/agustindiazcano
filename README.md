@@ -22,7 +22,7 @@ Transitioned from zero coding background in the pre-AI era: wrote my first line 
 
 ## Projects
 
-### [Anti-Fragile Agentic Workflow (AFAW)]([https://github.com/agustindiazcano/AFAW-REPO-LINK](https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow))
+### [Anti-Fragile Agentic Workflow (AFAW)](https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow)
 
 *AI-Assisted Development Framework | CI/CD, AST Mutation Testing, GitHub Actions, Agentic Engineering*
 
