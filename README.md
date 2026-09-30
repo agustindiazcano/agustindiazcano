@@ -35,7 +35,7 @@ Instead of relying on LLMs to evaluate their own work or to write tests that alw
 * **Isolation & Concurrency:** agents work under strict TDD, atomic commits and one isolated branch per task. They share no memory: they communicate through files and system interfaces.
 * **Cloud Validation:** tests, type checks (`mypy --strict` in the Python reference implementation) and linters run in parallel in GitHub Actions with path filters, so the local machine is never blocked. With branch protection and required checks, a failing CI blocks the PR.
 
-*Distilled from practice, not yet validated in a controlled study; the reference rules target a Python backend and can be adapted to other stacks.*
+*the reference rules target a Python backend and can be adapted to other stacks.*
 
 ### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
 
