@@ -1,24 +1,11 @@
 # Agustin Diaz-Cano | https://www.agustindiazcano.com
 **Software Engineer | Backend & AI Developer** | MSc Candidate in Information Systems Engineering [UTN](https://frba.utn.edu.ar) | Buenos Aires, Argentina
 
-Python Developer with 4+ years of experience in software development, specializing in AI/ML and Backend Development, having contributed to the development and maintenance of 10+ production projects used by hundreds of thousands of users across Spain and Latin America. My interest in machine learning goes back to 2020, when I completed an introductory Machine Learning course, [and deepened in March 2021, when I gave a bootcamp presentation on AI covering generative AI and deep learning](https://www.agustindiazcano.com/writing/predicting-generative-ai-boom), well before the field entered the mainstream. Currently pursuing an M.Sc. in Information Systems Engineering at UTN (CONEAU-accredited, Category A). My thesis investigates LLM-guided reinforcement learning for legged robot navigation, evaluating RBF networks as an interpretable alternative to standard MLP policies, benchmarked in MuJoCo and grid-based environments. My technical focus is building backend architectures that integrate GenAI in production-realistic conditions, not just prototypes, working with Python, Retrieval-Augmented Generation (RAG), and the Model Context Protocol (MCP) to explore LLM orchestration and AI agent design.
+4+ years in software development, contributing to 10+ production projects used by hundreds of thousands of users across Spain and Latin America. From 2021 to 2025 I worked in full-stack development and test automation on large-scale e-commerce platforms. My interest in machine learning goes back to 2020 with an introductory course, and deepened in March 2021 when I gave a bootcamp presentation on generative AI and deep learning. Since 2025 I've focused on AI backend engineering.
 
-Before pivoting to AI backend engineering, I spent 4 years as a Full-Stack Test Automation Engineer and Sole QA Owner governing large-scale e-commerce platforms (frontend, database, and backend automation), with full Go/No-Go authority on production releases and no dedicated QA team.
+I'm pursuing an M.Sc. in Information Systems Engineering at UTN. My thesis investigates LLM-guided reinforcement learning for legged robot navigation, benchmarked in MuJoCo and grid-based environments.
 
-Transitioned from zero coding background in the pre-AI era: wrote my first line of code in October 2020, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-</p>
+I wrote my first line of code in November 2020 with zero coding background, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
 
 ## Projects
 
@@ -95,30 +82,6 @@ Data integrity is enforced with idempotency keys, pessimistic row locking (SELEC
 *Python, PyTorch, RunPod (H100 clusters)*
 * Participated in OpenAI's 16MB Parameter Golf Challenge: training LLMs under extreme 16MB memory constraints using custom optimizers.
 * Ran experiments over two-plus weeks on RunPod H100 GPU clusters, investing $200+ in compute to iterate on optimizer design.
-
-## Professional Experience
-
-**Full Stack Developer | SDET | QA Lead** *(Contractor for GDU, Uruguay's #1 retailer)*
-*Aug 2022 – Jun 2025*
-
-Fullstack engineer and technical owner of the release pipeline, test automation architecture, and production stability for Grupo GDU's e-commerce platforms (Disco, Devoto, Geant), serving hundreds of thousands of users monthly across web and mobile.
-
-**Full Stack Developer | SDET | QA Lead** *(Feb 2023 – Jun 2025)*
-- Built pages and features in React, and maintained a 5,000+ line jQuery checkout flow in production, handling API integrations and JSON data modeling, serving hundreds of thousands of users.
-- Held full Go/No-Go and rollback authority on production releases with no dedicated QA team, working directly with backend teams to diagnose and resolve issues before deployment.
-- Designed and built the automation architecture from scratch (Selenium, then Cypress; +75 E2E tests) integrated into CI/CD pipelines with GitHub Actions and LambdaTest, running continuously against production.
-- Developed and maintained custom internal tooling and integrations to support release monitoring and cross-device validation.
-- Contributed to the platforms' nominations for the eCommerce Awards Uruguay in 2024 and 2025.
-
-**Full Stack Developer** *(Aug 2022 – Feb 2023)*
-- Built and maintained custom integrations and architectures across BigCommerce, VTEX IO, and Odoo (React, Node.js).
-- Led the end-to-end migration of the flagship site from legacy jQuery to React + VTEX IO.
-
-**Frontend Developer, Hello Auto** *(Fintech / Insurtech, Spain, remote)*
-*2021 – 2022*
-
-- Built, maintained, and tested the real-time premium calculation logic, API integrations, and JSON data handling behind a live insurance quoting engine — external-user UI and internal CRM — used by real customers, not an internal tool. Stack: React, Node.js, JavaScript, Azure DevOps, Git.
-- Shipped my first production PR 6 months after writing my first line of code (pre-AI era).
 
 ## Research
 
