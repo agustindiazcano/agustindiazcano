@@ -9,41 +9,6 @@ I wrote my first line of code in November 2020 with zero coding background, rece
 
 ## Projects
 
-### [Anti-Fragile Agentic Workflow (AFAW)](https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow)
-
-*AI-Assisted Development Methodology | CI/CD, AST Mutation Testing, GitHub Actions, Agentic Engineering*
-
-A boilerplate and set of rules for AI-assisted development with multiple parallel coding agents (Claude, Gemini, etc.). Built on a single engineering premise: **The AI decides, the engine measures.**
-
-Instead of relying on LLMs to evaluate their own work or to write tests that always pass, AFAW measures every result with deterministic tools (tests, type checkers, mutation testing, CI) and keeps a human approving every PR. Rules are also enforced outside the prompt (branch protection, hooks, CI), because prompt instructions alone are advice.
-
-* **Isolated state, checked by CI:** each agent writes only its own delta and task file. CI rejects code changes that come without a valid delta, and regenerates the shared context (`LASTCONTEXT`, `PENDING`) after each merge through a PR that a human approves, preventing merge conflicts between parallel agents.
-* **AST Mutation Testing on the diff:** to catch tests that pass without checking anything, modified files are mutated at the AST level in CI, after validating that the baseline passes. Surviving mutants are fixed by improving tests. It is mandatory in critical modules, where a file below the minimum score blocks the PR.
-* **Isolation & Concurrency:** agents work under strict TDD, atomic commits and one isolated branch per task. They share no memory: they communicate through files and system interfaces.
-* **Cloud Validation:** tests, type checks (`mypy --strict` in the Python reference implementation) and linters run in parallel in GitHub Actions with path filters, so the local machine is never blocked. With branch protection and required checks, a failing CI blocks the PR.
-
-*the reference rules target a Python backend and can be adapted to other stacks.*
-
-### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
-
-![Home](https://github.com/agustindiazcano/credentials/blob/main/certificates/IBM-Bob-2-0-hackathon-certificate-agustin-diaz-cano-app-front.png?raw=true)
-*(Home)*
-
-Built from scratch in 48 hours for the **IBM Bob 2.0 Hackathon**. 
-
- *One of 1,124 successful submissions out of 3,464 teams (15,727 participants) — Top 32% delivery rate.*
-
-**Stack:** Python, FastAPI, Next.js, TypeScript, PostgreSQL, Docker, Terraform, GitHub Actions (CI/CD), Google Cloud Run, Cloud SQL, Vercel, MCP, Vertex AI (Gemini), IBM watsonx.ai, Playwright.
-
-A multi-agent mutation testing system that measures whether your tests actually catch bugs (not just line coverage), then uses AI agents to write the missing ones. Features a custom AST mutation engine, a parallel multi-agent swarm (Writer + Critic + Gate), native MCP server, full CI/CD, and multi-cloud AI infrastructure.
-
-- ~20,000+ lines of code (Python engine + TypeScript frontend + IaC + verification scripts) written in a single weekend.
-- **AI-Assisted Development:** Orchestrated almost entirely using IBM Bob IDE 2.0, Claude Code and Google Antigravity.
-- **Enterprise Infrastructure:** Full infrastructure as code (IaC) with Terraform + Workload Identity Federation (no service account keys). Backend on Cloud Run + Postgres on Cloud SQL; Frontend on Vercel.
-- **Deterministic Guardrails:** 30+ automated verification checks and strong AST-based guardrails against LLM hallucinations and cheating tests.
-
-🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s)** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
-
 ### [Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)
 
 ![Dashboard: judges debate](https://github.com/agustindiazcano/mcp-transactional-agent/blob/main/assets/dashboard-judges-debate-2.png?raw=true)
@@ -69,6 +34,41 @@ Data integrity is enforced with idempotency keys, pessimistic row locking (SELEC
 * 300 tests (245 unit, 55 integration) against real PostgreSQL and RabbitMQ, 86% coverage, gated in CI. Locust load testing measured a P95 of 87 ms at 45+ req/s with zero failures; inference cost measured at ~$0.0004 per transaction.
 
 * Deployed on Google Cloud with Terraform and full CI/CD: every push is linted, type-checked and tested, and every merge to main is built, pushed and deployed to Cloud Run by GitHub Actions through Workload Identity Federation, with no keys stored in GitHub. Cloud SQL with pgvector, Secret Manager with per-secret access, one least-privilege service account per service, and Vertex AI authenticated by service account instead of API keys. Real claims run end to end in the cloud.
+
+### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
+
+![Home](https://github.com/agustindiazcano/credentials/blob/main/certificates/IBM-Bob-2-0-hackathon-certificate-agustin-diaz-cano-app-front.png?raw=true)
+*(Home)*
+
+Built from scratch in 48 hours for the **IBM Bob 2.0 Hackathon**. 
+
+ *One of 1,124 successful submissions out of 3,464 teams (15,727 participants) — Top 32% delivery rate.*
+
+**Stack:** Python, FastAPI, Next.js, TypeScript, PostgreSQL, Docker, Terraform, GitHub Actions (CI/CD), Google Cloud Run, Cloud SQL, Vercel, MCP, Vertex AI (Gemini), IBM watsonx.ai, Playwright.
+
+A multi-agent mutation testing system that measures whether your tests actually catch bugs (not just line coverage), then uses AI agents to write the missing ones. Features a custom AST mutation engine, a parallel multi-agent swarm (Writer + Critic + Gate), native MCP server, full CI/CD, and multi-cloud AI infrastructure.
+
+- ~20,000+ lines of code (Python engine + TypeScript frontend + IaC + verification scripts) written in a single weekend.
+- **AI-Assisted Development:** Orchestrated almost entirely using IBM Bob IDE 2.0, Claude Code and Google Antigravity.
+- **Enterprise Infrastructure:** Full infrastructure as code (IaC) with Terraform + Workload Identity Federation (no service account keys). Backend on Cloud Run + Postgres on Cloud SQL; Frontend on Vercel.
+- **Deterministic Guardrails:** 30+ automated verification checks and strong AST-based guardrails against LLM hallucinations and cheating tests.
+
+🔗 **[Live Demo](https://ibm-bob-mcp-agent-guard.vercel.app/)** · **[Video Demo (YouTube)](https://www.youtube.com/watch?v=m64qdd1axV0&t=6s)** · **[Hackathon Certificate](https://lablab.ai/u/@agustin_diazcano6/ai-hackathons/ibm-bob-2-hackathon/certificate)**
+
+### [Anti-Fragile Agentic Workflow (AFAW)](https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow)
+
+*AI-Assisted Development Methodology | CI/CD, AST Mutation Testing, GitHub Actions, Agentic Engineering*
+
+A boilerplate and set of rules for AI-assisted development with multiple parallel coding agents (Claude, Gemini, etc.). Built on a single engineering premise: **The AI decides, the engine measures.**
+
+Instead of relying on LLMs to evaluate their own work or to write tests that always pass, AFAW measures every result with deterministic tools (tests, type checkers, mutation testing, CI) and keeps a human approving every PR. Rules are also enforced outside the prompt (branch protection, hooks, CI), because prompt instructions alone are advice.
+
+* **Isolated state, checked by CI:** each agent writes only its own delta and task file. CI rejects code changes that come without a valid delta, and regenerates the shared context (`LASTCONTEXT`, `PENDING`) after each merge through a PR that a human approves, preventing merge conflicts between parallel agents.
+* **AST Mutation Testing on the diff:** to catch tests that pass without checking anything, modified files are mutated at the AST level in CI, after validating that the baseline passes. Surviving mutants are fixed by improving tests. It is mandatory in critical modules, where a file below the minimum score blocks the PR.
+* **Isolation & Concurrency:** agents work under strict TDD, atomic commits and one isolated branch per task. They share no memory: they communicate through files and system interfaces.
+* **Cloud Validation:** tests, type checks (`mypy --strict` in the Python reference implementation) and linters run in parallel in GitHub Actions with path filters, so the local machine is never blocked. With branch protection and required checks, a failing CI blocks the PR.
+
+*the reference rules target a Python backend and can be adapted to other stacks.*
 
 ### [AI Crypto Trading Agent](https://github.com/agustindiazcano/algorithmic-trading-engine)
 
