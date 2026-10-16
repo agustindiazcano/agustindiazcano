@@ -35,6 +35,24 @@ Data integrity is enforced with idempotency keys, pessimistic row locking (SELEC
 
 * Deployed on Google Cloud with Terraform and full CI/CD: every push is linted, type-checked and tested, and every merge to main is built, pushed and deployed to Cloud Run by GitHub Actions through Workload Identity Federation, with no keys stored in GitHub. Cloud SQL with pgvector, Secret Manager with per-secret access, one least-privilege service account per service, and Vertex AI authenticated by service account instead of API keys. Real claims run end to end in the cloud.
 
+### Quantum Computing: Windfarm Optimization
+
+🔗 **[Live](https://agustindiazcano.github.io/qwind-qaoa-windfarm/)**
+🔗 **[Video](https://agustindiazcano.github.io/qwind-qaoa-windfarm/](https://www.youtube.com/watch?v=UGVkgYGXkF4))**
+🔗 **[Repository](https://agustindiazcano.github.io/qwind-qaoa-windfarm/)**
+🔗 **[Qollab]([https://agustindiazcano.github.io/qwind-qaoa-windfarm/](https://qollab.xyz/u/agustindiazcano/qwind))**
+
+Tested on a real quantum computer (IonQ Forte 1).
+
+Tech stack:
+Languages: Python
+Quantum computing and math: Qiskit 2.5 (SparsePauliOp, StatevectorEstimator, StatevectorSampler, StatePreparation), IonQ Forte 1 (QPU), QAOA, QUBO, Ising Hamiltonians, NumPy, SciPy (COBYLA)
+Quality, data and CI/CD: Pytest (150+ tests), GitHub Actions, ERA5 / Open-Meteo API, SCADA wind datasets (Zenodo)
+
+When a wind farm must temporarily reduce its output because of grid limits or maintenance (curtailment), shutting down the wrong combination of turbines wastes energy because of the wake effect: the cone of slow, turbulent air that every active turbine leaves behind it. Choosing exactly K active turbines out of N positions is a combinatorial optimization problem whose search space scales as C(N, K).
+
+QWind tackles this problem by formulating a cost Hamiltonian based on wake physics and solving it with a variational quantum circuit (QAOA) designed to preserve, by symmetry, the exact number of active turbines.
+
 ### [TestMind AI – Multi-Agent Mutation Testing System (MCP)](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard)
 
 ![Home](https://github.com/agustindiazcano/credentials/blob/main/certificates/IBM-Bob-2-0-hackathon-certificate-agustin-diaz-cano-app-front.png?raw=true)
