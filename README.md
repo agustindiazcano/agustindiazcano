@@ -40,7 +40,7 @@ Data integrity is enforced with idempotency keys, pessimistic row locking (SELEC
 🔗 **[Live](https://agustindiazcano.github.io/qwind-qaoa-windfarm/)**
 🔗 **[Video](https://agustindiazcano.github.io/qwind-qaoa-windfarm/](https://www.youtube.com/watch?v=UGVkgYGXkF4))**
 🔗 **[Repository](https://agustindiazcano.github.io/qwind-qaoa-windfarm/)**
-🔗 **[Qollab]([https://agustindiazcano.github.io/qwind-qaoa-windfarm/](https://qollab.xyz/u/agustindiazcano/qwind))**
+🔗 **[Qollab](https://qollab.xyz/u/agustindiazcano/qwind)**
 
 Tested on a real quantum computer (IonQ Forte 1).
 
