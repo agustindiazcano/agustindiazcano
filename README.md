@@ -1,5 +1,5 @@
 # Agustin Diaz-Cano | https://www.agustindiazcano.com
-**Full Stack & AI Developer** | MSc Candidate in Computer Systems Engineering [UTN](https://frba.utn.edu.ar) | Buenos Aires, Argentina
+**Full Stack & AI Developer** | MSc Candidate in Systems Engineering [UTN](https://frba.utn.edu.ar) | Buenos Aires, Argentina
 
 4+ years in software development, contributing to 10+ production projects used by hundreds of thousands of users across Spain and Latin America. From 2021 to 2025 I worked in full-stack development and test automation on large-scale e-commerce platforms. My interest in machine learning goes back to 2020 with an introductory course, and deepened in March 2021 when I gave a bootcamp presentation on generative AI and deep learning. Since 2025 I've focused on AI backend engineering.
 
