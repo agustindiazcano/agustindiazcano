@@ -3,8 +3,6 @@
 
 4+ years in software development, contributing to 10+ production projects used by hundreds of thousands of users across Spain and Latin America. From 2021 to 2025 I worked in full-stack development and test automation on large-scale e-commerce platforms. My interest in machine learning goes back to 2020 with an introductory course, and deepened in March 2021 when I gave a bootcamp presentation on generative AI and deep learning. Since 2025 I've focused on AI backend engineering.
 
-I'm pursuing an M.Sc. in Information Systems Engineering at UTN. My thesis investigates LLM-guided reinforcement learning for legged robot navigation, benchmarked in MuJoCo and grid-based environments.
-
 I wrote my first line of code in November 2020 with zero coding background, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
 
 ## Projects
