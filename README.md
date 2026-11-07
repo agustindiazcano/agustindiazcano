@@ -5,6 +5,23 @@
 
 I wrote my first line of code in November 2020 with zero coding background, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
 
+## AI Usage (Last 30 Days)
+
+<!-- AI-USAGE:START -->
+**10.44B tokens** across **328 sessions** in the last 30 days (10-08 to 11-06), from six AI coding agents. That is about 205 months of a median developer (51M tokens/month) or 27 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+
+| Agent | Tokens | Sessions | Share |
+|---|---:|---:|---:|
+| Claude Code | 7.91B | 140 | 75.8% |
+| Antigravity | 1.46B | 103 | 14.0% |
+| Codex | 677.5M | 60 | 6.5% |
+| Meta Muse | 382.3M | 23 | 3.7% |
+| Grok | 5.4M | 2 | 0.1% |
+| Cursor | server-side only | 0 | n/a |
+
+Cursor usage is tracked server-side, so it exposes no local token counters. Updated automatically from the data behind the [AI Usage dashboard](https://www.agustindiazcano.com/agents-usage).
+<!-- AI-USAGE:END -->
+
 ## Projects
 
 ### [Agentic MCP Engine and RAG Gateway](https://github.com/agustindiazcano/mcp-transactional-agent)
