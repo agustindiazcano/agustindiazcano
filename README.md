@@ -8,15 +8,15 @@ I wrote my first line of code in November 2020 with zero coding background, rece
 ## AI Usage (Last 30 Days)
 
 <!-- AI-USAGE:START -->
-**10.89B tokens** across **344 sessions** in the last 30 days (10-09 to 11-07), from six AI coding agents. That is about 214 months of a median developer (51M tokens/month) or 29 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+**10.75B tokens** across **343 sessions** in the last 30 days (10-10 to 11-08), from six AI coding agents. That is about 211 months of a median developer (51M tokens/month) or 28 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
 
 | Agent | Tokens | Sessions | Share |
 |---|---:|---:|---:|
-| Claude Code | 7.93B | 141 | 72.8% |
-| Antigravity | 1.88B | 117 | 17.3% |
-| Codex | 694.6M | 61 | 6.4% |
-| Meta Muse | 382.3M | 23 | 3.5% |
-| Grok | 5.4M | 2 | 0.0% |
+| Claude Code | 7.70B | 142 | 71.6% |
+| Antigravity | 1.97B | 115 | 18.3% |
+| Codex | 694.6M | 61 | 6.5% |
+| Meta Muse | 382.3M | 23 | 3.6% |
+| Grok | 5.4M | 2 | 0.1% |
 | Cursor | server-side only | 0 | n/a |
 
 Cursor usage is tracked server-side, so it exposes no local token counters. Updated automatically from the data behind the [AI Usage dashboard](https://www.agustindiazcano.com/agents-usage).
