@@ -8,7 +8,7 @@ I wrote my first line of code in November 2020 with zero coding background, rece
 ## AI Usage (Last 30 Days)
 
 <!-- AI-USAGE:START -->
-**10.75B tokens** across **343 sessions** in the last 30 days (10-10 to 11-08), from six AI coding agents. That is about 211 months of a median developer (51M tokens/month) or 28 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+**11.31B tokens** across **343 sessions** in the last 30 days (10-10 to 11-09), from six AI coding agents. [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
 
 | Agent | Tokens | Sessions | Share |
 |---|---:|---:|---:|
