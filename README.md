@@ -8,14 +8,14 @@ I wrote my first line of code in November 2020 with zero coding background, rece
 ## AI Usage (Last 30 Days)
 
 <!-- AI-USAGE:START -->
-**11.35B tokens** across **386 sessions** in the last 30 days (10-11 to 11-09), from six AI coding agents. That is about 222 months of a median developer (51M tokens/month) or 30 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+**11.51B tokens** across **386 sessions** in the last 30 days (10-12 to 11-10), from six AI coding agents. That is about 226 months of a median developer (51M tokens/month) or 30 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
 
 | Agent | Tokens | Sessions | Share |
 |---|---:|---:|---:|
-| Claude Code | 7.73B | 146 | 68.1% |
-| Antigravity | 2.43B | 147 | 21.4% |
-| Codex | 800.2M | 66 | 7.1% |
-| Meta Muse | 383.2M | 25 | 3.4% |
+| Claude Code | 7.69B | 144 | 66.8% |
+| Antigravity | 2.43B | 148 | 21.1% |
+| Codex | 800.2M | 66 | 7.0% |
+| Meta Muse | 582.1M | 26 | 5.1% |
 | Grok | 5.4M | 2 | 0.0% |
 | Cursor | server-side only | 0 | n/a |
 
