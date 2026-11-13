@@ -1,9 +1,13 @@
-# Agustin Diaz-Cano | https://www.agustindiazcano.com
-**Full Stack & AI Developer** | MSc Candidate in Systems Engineering [UTN](https://frba.utn.edu.ar) | Buenos Aires, Argentina
+# Agustin Diaz-Cano | [agustindiazcano.com](https://www.agustindiazcano.com)
+**Full Stack & AI Developer** | MS Candidate & Specialist, Systems Engineering [UTN FRBA](https://frba.utn.edu.ar)
 
-4+ years in software development, contributing to 10+ production projects used by hundreds of thousands of users across Spain and Latin America. From 2021 to 2025 I worked in full-stack development and test automation on large-scale e-commerce platforms. My interest in machine learning goes back to 2020 with an introductory course, and deepened in March 2021 when I gave a bootcamp presentation on generative AI and deep learning. Since 2025 I've focused on AI backend engineering.
+[LinkedIn](https://www.linkedin.com/in/agustindiazcano/) · [YouTube](https://www.youtube.com/@agustin-diaz-cano) · [Qollab](https://qollab.xyz/u/agustindiazcano) · [Google Scholar](https://scholar.google.com/citations?user=TU_ID_AQUI) · [ORCID: 0009-0001-4336-490X](https://orcid.org/0009-0001-4336-490X)
 
-I wrote my first line of code in November 2020 with zero coding background, received a job offer on May 14, 2021, and shipped my first production PR in June 2021 at Hello Auto, a Spanish fintech (insurtech).
+6+ years building software and 4+ years shipping production systems across 10+ large-scale platforms used by hundreds of thousands of users across Europe and Latin America. From 2021 to 2025, I worked on full-stack development, insurtech calculation engines, e-commerce platforms, and automated E2E CI/CD pipelines, and reviewed 4,000+ full-stack student projects as a Technical Code Reviewer. Since 2025, I've focused on AI and backend development.
+
+## Featured
+
+- 🏆 **Oct 2026:** Won 🥇 **1st Place in Category (Industrial Application)** and 🥉 **3rd Place Overall in Argentina** at the **Global Quantum Computing Hackathon (IonQ x Qollab)** with [QWind](https://github.com/agustindiazcano/qwind-qaoa-windfarm), qualifying for the global evaluation stage (997 participants across 37 countries; $10,000 prize pool). Awarded $200 cash prize and $2,000 in IonQ quantum hardware compute grants.
 
 ## AI Usage (Last 30 Days)
 
@@ -21,6 +25,35 @@ I wrote my first line of code in November 2020 with zero coding background, rece
 
 Cursor usage is tracked server-side, so it exposes no local token counters. Updated automatically from the data behind the [AI Usage dashboard](https://www.agustindiazcano.com/agents-usage).
 <!-- AI-USAGE:END -->
+
+## Hardware & Compute Allocations (2026)
+
+| Provider / Program | Allocation & Hardware Access | Value (USD) | Project |
+| :--- | :--- | ---: | :--- |
+| **IonQ x Qollab** | QPU Compute Grant (IonQ Forte 1, 36-qubit trapped-ion QPU) | $2,000 | [QWind](https://github.com/agustindiazcano/qwind-qaoa-windfarm) |
+| **IonQ x Qollab** | Cash Prize (1st in category, 3rd overall in Argentina) | $200 | [QWind](https://github.com/agustindiazcano/qwind-qaoa-windfarm) |
+| **Adaption Labs (Apart Research)** | API Compute Grant (Gemma 4 31B & DeepSeek V4 Flash swarm runs) | $500 | [Swarm Alignment](https://github.com/agustindiazcano/apart-research-swarm-alignment) |
+| **GitLab** | Enterprise Credits (GitLab Duo Enterprise) | $500 | [AFAW Engine](https://github.com/agustindiazcano/afaw-engine-gitlab) |
+| **Meta / Baseten / Modal** | Compute Grant: $150 Meta Muse API, $100 Baseten, $100 Modal GPU serverless | $350 | [Waggle Hive](https://github.com/agustindiazcano/waggle-agents-meta-muse) |
+| **Total** | **$3,350 compute + $200 cash** (excludes credits with no published amount) | **$3,550** | |
+
+*All projects above were also built on the Google Cloud.*
+
+## News
+
+- **Nov 2026:** Released [Infection Chains in LLM Swarms](https://github.com/agustindiazcano/apart-research-swarm-alignment) (paper + open testbed on multi-hop contagion and graph-contextual gating) for the **Apart Research Swarm Alignment Sprint** ($5,000 prize pool), backed by $500 in compute grants from Adaption Labs.
+
+- **Nov 2026:** Built an LLM evaluation suite for the **micro1 Eval Hackathon**, featuring 5/5 difficulty benchmark tasks across async lock cancellation, SQLite WAL claim stores, lane fan-in gates, and parallel coverage runners.
+
+- **Nov 2026:** Shipped [Waggle Hive](https://github.com/agustindiazcano/waggle-agents-meta-muse) (71k LOC, 1,440 simulation runs) in the *Push the Frontier* track at the **Meta Global AI Developer Hackathon** ($1,000,000 prize pool), receiving $150 Meta Muse API, $100 Baseten, and $100 Modal compute allocations.
+
+- **Oct 2026:** Built [AFAW Engine](https://github.com/agustindiazcano/afaw-engine-gitlab) for the **GitLab Transcend Hackathon ("Life After Code")**, a 9-stage autonomous DevSecOps pipeline with 30 agent MRs auto-merged in production, backed by GitLab Duo Enterprise and GCP compute credits.
+
+- **Oct 2026:** Deployed dual VLM OCR (Qwen2-VL-2B) and Enterprise RAG (SQLite FTS5) pipelines running on AMD Instinct GPUs for the **AMD ROCm AI Challenge**.
+
+- **Oct 2026:** Released [Argentina 2056](https://github.com/agustindiazcano/arg-2056-udesa) for the **UDeSA Contar con Datos Competition**, combining a 3D geospatial visualization of the 1817 Andes crossing (Three.js / MapLibre GL) with a 14-chapter macroeconomic dashboard tracking series from 1960 to 2056.
+
+- **Sep 2026:** Placed in the **Top 32% globally** (out of 3,464 teams / 15,727 participants) at the **IBM Bob 2.0 Global Hackathon** with [TestMind AI](https://github.com/agustindiazcano/ibm-bob-mcp-agent-guard), a 20k+ LOC multi-agent AST mutation testing system.
 
 ## Projects
 
