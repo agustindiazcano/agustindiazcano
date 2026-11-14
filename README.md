@@ -12,15 +12,15 @@
 ## AI Usage (Last 30 Days)
 
 <!-- AI-USAGE:START -->
-**10.82B tokens** across **380 sessions** in the last 30 days (10-15 to 11-13), from six AI coding agents. That is about 212 months of a median developer (51M tokens/month) or 28 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+**9.98B tokens** across **374 sessions** in the last 30 days (10-16 to 11-14), from six AI coding agents. That is about 196 months of a median developer (51M tokens/month) or 26 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
 
 | Agent | Tokens | Sessions | Share |
 |---|---:|---:|---:|
-| Claude Code | 6.95B | 144 | 64.2% |
-| Antigravity | 2.48B | 151 | 22.9% |
-| Codex | 797.1M | 57 | 7.4% |
-| Meta Muse | 583.6M | 26 | 5.4% |
-| Grok | 5.4M | 2 | 0.0% |
+| Claude Code | 6.31B | 142 | 63.2% |
+| Antigravity | 2.39B | 155 | 24.0% |
+| Codex | 694.3M | 49 | 7.0% |
+| Meta Muse | 583.6M | 26 | 5.8% |
+| Grok | 5.4M | 2 | 0.1% |
 | Cursor | server-side only | 0 | n/a |
 
 Cursor usage is tracked server-side, so it exposes no local token counters. Updated automatically from the data behind the [AI Usage dashboard](https://www.agustindiazcano.com/agents-usage).
