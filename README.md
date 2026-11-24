@@ -12,14 +12,14 @@
 ## AI Usage (Last 30 Days)
 
 <!-- AI-USAGE:START -->
-**9.64B tokens** across **404 sessions** in the last 30 days (10-25 to 11-23), from six AI coding agents. That is about 189 months of a median developer (51M tokens/month) or 25 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
+**8.95B tokens** across **398 sessions** in the last 30 days (10-26 to 11-24), from six AI coding agents. That is about 175 months of a median developer (51M tokens/month) or 24 months of a 90th-percentile developer (380M tokens/month), per the [Jellyfish Q1 2026 study](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/).
 
 | Agent | Tokens | Sessions | Share |
 |---|---:|---:|---:|
-| Claude Code | 5.95B | 106 | 61.7% |
-| Antigravity | 2.39B | 217 | 24.8% |
-| Codex | 712.1M | 53 | 7.4% |
-| Meta Muse | 583.6M | 26 | 6.1% |
+| Claude Code | 5.25B | 99 | 58.7% |
+| Antigravity | 2.39B | 218 | 26.7% |
+| Codex | 712.1M | 53 | 8.0% |
+| Meta Muse | 583.6M | 26 | 6.5% |
 | Grok | 5.4M | 2 | 0.1% |
 | Cursor | server-side only | 0 | n/a |
 
