@@ -7,6 +7,7 @@
 
 ## Featured
 
+- 🏆 **Nov 2026:** **Impact Category Winner** at the **NASA Space Apps Challenge 2026 (Buenos Aires, Argentina, 450+ participants)** with [Tango Horizon](https://github.com/agustindiazcano/nasa-mars-tango-horizon), a team of AI agents for astronaut EVA and rescue in a Mars simulation built on real NASA and USGS data. [Certificate](https://github.com/agustindiazcano/nasa-mars-tango-horizon/blob/main/docs/media/impact-winner-certificate.jpeg)
 - 🏆 **Oct 2026:** Won 🥇 **1st Place in Category (Industrial Application)** and 🥉 **3rd Place Overall in Argentina** at the **Global Quantum Computing Hackathon (IonQ x Qollab)** with [QWind](https://github.com/agustindiazcano/qwind-qaoa-windfarm), qualifying for the global evaluation stage (997 participants across 37 countries; $10,000 prize pool). Awarded $200 cash prize and $2,000 in IonQ quantum hardware compute grants.
 
 ## AI Usage (Last 30 Days)
@@ -23,10 +24,11 @@
 | Grok | 5.4M | 2 | 0.1% |
 | Cursor | server-side only | 0 | n/a |
 
-Cursor usage is tracked server-side, so it exposes no local token counters. Updated automatically from the data behind the [AI Usage dashboard](https://www.agustindiazcano.com/agents-usage).
 <!-- AI-USAGE:END -->
 
-## Hardware & Compute Allocations (2026)
+## Compute & Awards (2026)
+
+**$3,550 in compute credits and awards** ($3,350 compute + $200 cash).
 
 | Provider / Program | Allocation & Hardware Access | Value (USD) | Project |
 | :--- | :--- | ---: | :--- |
@@ -35,7 +37,6 @@ Cursor usage is tracked server-side, so it exposes no local token counters. Upda
 | **Adaption Labs (Apart Research)** | API Compute Grant (Gemma 4 31B & DeepSeek V4 Flash swarm runs) | $500 | [Swarm Alignment](https://github.com/agustindiazcano/apart-research-swarm-alignment) |
 | **GitLab** | Enterprise Credits (GitLab Duo Enterprise) | $500 | [AFAW Engine](https://github.com/agustindiazcano/afaw-engine-gitlab) |
 | **Meta / Baseten / Modal** | Compute Grant: $150 Meta Muse API, $100 Baseten, $100 Modal GPU serverless | $350 | [Waggle Hive](https://github.com/agustindiazcano/waggle-agents-meta-muse) |
-| **Total** | **$3,350 compute + $200 cash** (excludes credits with no published amount) | **$3,550** | |
 
 *All projects above were also built on the Google Cloud.*
 
